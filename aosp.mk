@@ -11,9 +11,9 @@ $(call inherit-product, device/samsung/logan/device_logan.mk)
 TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 PRODUCT_COPY_FILES += \
-     vendor/slim/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
+     vendor/aosp/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
 
-	 ## Device identifier. This must come after all inclusions
+## Device identifier. This must come after all inclusion
 PRODUCT_DEVICE := logan
 PRODUCT_NAME := aosp_logan
 PRODUCT_BRAND := samsung
